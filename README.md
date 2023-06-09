@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Color Toggler App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Color Toggler app is a small application built using ReactJS that allows users to toggle between different colors with a click of a button. It provides a simple and interactive user interface to dynamically change the background color of a component.
 
-## Available Scripts
+When the app loads, it displays a "Empty Value" on the screen. There is a input box that the user can type the color name so that the background color of the component will change based on the color and it will show the hex value of the color and there is a button labeled "Toggle Color" that the user can click to change the color of the text inside the component. 
 
-In the project directory, you can run:
+The app is implemented using ReactJS, a popular JavaScript library for building user interfaces. It utilizes React's component-based architecture to create reusable components for the color toggler functionality. The state management capabilities of React are leveraged to keep track of the current color and update the UI accordingly.
 
-### `npm start`
+The Color Toggler app showcases the power of ReactJS in efficiently handling user interactions and rendering dynamic changes to the user interface. It serves as a simple example of how React can be used to create interactive and responsive applications with ease.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Screenshots
+![image](https://github.com/Dharshan4038/Color-Toggler-ReactJS/assets/94830386/502ae6f6-25c3-42e9-b844-5f85b40fba31)
+![image](https://github.com/Dharshan4038/Color-Toggler-ReactJS/assets/94830386/80c1b4a4-4a6c-4da7-b7a3-f0bc4476f7ac)
+![image](https://github.com/Dharshan4038/Color-Toggler-ReactJS/assets/94830386/937c87e1-e363-41d8-8ff2-b27d1a854868)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
