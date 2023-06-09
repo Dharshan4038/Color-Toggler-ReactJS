@@ -1,0 +1,52 @@
+body {
+    background: url("https://transparenttextures.com/patterns/always-grey.png");
+}
+
+.color-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 10%;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 35%;
+    bottom: 0;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+.toggle-btn {
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.toggle-btn:hover {
+    transform: scale(1.03);
+}
